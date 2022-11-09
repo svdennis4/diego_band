@@ -4,7 +4,19 @@ h1 {
 }
 
 img .about {
-    scale: 75%;
+    scale: 50%;
     position: relative;
     float:left ;
+}
+
+iframe {
+    float: left;
+}
+
+.container {
+    float: left;
+}
+
+.aboutinfo{
+    float: right;
 }
