@@ -4,12 +4,12 @@ h1 {
 }
 
 body {
-    background: #222;
+    background: #444;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     margin: 0 auto;
     color: white;
-}
+  }
 
 img .about {
     scale: 50%;
@@ -47,7 +47,7 @@ header::after {
 }
 
 nav {
-    float: right;
+    text-align: center;
 }
 
 nav ul {
@@ -59,7 +59,8 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
     position: relative;
 }
@@ -68,7 +69,7 @@ nav a {
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 nav a:hover {
@@ -92,6 +93,21 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
+
+.landing-page {
+    margin: 0;
+    padding-top: 200px;
+    padding-bottom: 450px;
+    background-image: url(../diego_band/Pictures/background2.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+}
+
+
 
 
 
