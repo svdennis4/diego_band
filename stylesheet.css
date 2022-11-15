@@ -3,6 +3,13 @@ h1 {
     text-decoration: solid;
 }
 
+body {
+    background: #222;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
 img .about {
     scale: 50%;
     position: relative;
@@ -14,9 +21,41 @@ iframe {
 }
 
 .container {
-    float: left;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .aboutinfo{
     float: right;
 }
+
+header {
+    background: #55d6aa;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+
+
+
+
+
