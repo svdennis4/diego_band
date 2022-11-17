@@ -108,6 +108,33 @@ nav a:hover::before {
     background-repeat: no-repeat;
 }
 
+.booking-page {
+    margin: 0;
+    padding-top: 200px;
+    padding-bottom: 450px;
+    background-image: url(../diego_band/Pictures/titi-diego.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: center;
+    scale: 100%;
+    
+    background-repeat: no-repeat;
+}
+
+.events-page {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 450px;
+    background-image: url(../diego_band/Pictures/machepa-group2.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: center;
+    scale: 100%;
+        
+    background-repeat: no-repeat;
+}
 
 
 
