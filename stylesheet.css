@@ -338,7 +338,7 @@ nav a:hover::before {
 }
 
 .contact-headline {
-    margin-top: -108px;
+    margin-top: -60px;
 }
 
 .booking-form label {
@@ -364,9 +364,142 @@ nav a:hover::before {
     background-color:#55d6aa
 }
 
+.contact-line {
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 20px;
+}
 
+.emails {
+    text-decoration: underline;
+}
 
+.media-section {
+    margin: 0;
+    padding-top: 475px;
+    padding-bottom: 450px;
+    height: 100%;
+    background-image: url(../diego_band/Pictures/background2.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: center;
+    scale: 100%;   
+    background-repeat: no-repeat; 
+}
 
+.media-headline {
+    margin-top: -250px;
+}
+
+.event-container {
+    font-family: "Roboto", sans-serif;
+    max-width: 800px;
+    margin: 0, auto;
+}
+
+.event-headline {
+    margin-top: -30px;
+}
+
+.year {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 475px;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.event-container .event{
+    box-shadow: 0px 4px 16px -8px rgba(0,0,0,0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0px;
+}
+
+.event .event-left {
+    background: #222;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 8px 48px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+    margin-left: 25px;
+}
+
+.event .event-left .date {
+    font-size: 56px;
+}
+
+.event .event-left .month {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event .event-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 24px;
+}
+
+.event .event-right h3.event-title {
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+    color: #218bbb;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.event .event-right .event-timing {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 24px 0px;
+    font-size: 14px;
+    color: #218bbb;
+}
+
+.event .event-right .event-timing img {
+    height: 20px;
+    padding-right: 8px;
+}
+
+.event .event-right .event-description {
+    text-align: left;
+    width: 350px;
+}
+
+@media (max-width: 550px) {
+    .event {
+        flex-direction: column;
+        
+    }
+
+    .event-left {
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .event .event-left .event-date .date,
+    .event .event-left .event-date .month {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .event .event-left .event-date {
+        padding: 10px 0;
+    }
+}
 
 
 
