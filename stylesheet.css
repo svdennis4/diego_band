@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-    background: #444;
+    background: #222;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     margin: 0 auto;
@@ -95,7 +95,7 @@ nav a:hover::before {
 }
 
 .landing-page {
-    margin: 0;
+    margin-top: 5px;
     padding-top: 200px;
     padding-bottom: 450px;
     background-image: url(../diego_band/Pictures/background2.png);
@@ -123,18 +123,248 @@ nav a:hover::before {
 }
 
 .events-page {
-    margin: 0;
-    padding-top: 100px;
+    margin-top: 5px;
+    padding-top: 200px;
     padding-bottom: 450px;
-    background-image: url(../diego_band/Pictures/machepa-group2.png);
+    background-image: url(../diego_band/Pictures/background-2.png);
     position: relative;
     float:none;
     text-align: center;
-    background-position: center;
+    background-position: right;
     scale: 100%;
         
     background-repeat: no-repeat;
 }
+
+
+.about-page {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 590px;
+    background-image: url(../diego_band/Pictures/background2.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: right;
+    scale: 100%;   
+    background-repeat: no-repeat;
+    
+}
+
+.ariel-about {
+    margin: 0;
+    padding-top: 200px;
+    padding-bottom: 450px;
+    height: 100%;
+    background-image: url(../diego_band/Pictures/ariel-about.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: center;
+    scale: 100%;   
+    background-repeat: no-repeat; 
+}
+
+.ariel-aboutheadline {
+    margin-top: 10px;
+}
+
+.ariel-abouttext {
+    width: 500px;
+    text-align: center;
+    margin-left: 31%;
+    margin-top: 35px;
+    line-height: 30px;  
+}
+
+.social {
+    margin-top: 40px;
+    color: white;
+    font-size: 50px;
+}
+
+.social a{
+    color: white;
+}
+
+.about-us {
+    margin-top: 120px;
+}
+
+.band-abouttext {
+    padding: 0;
+    text-align: center;
+    width: 500px;
+    height: 10px;
+    margin-left: 31%;
+    margin-top: 35px;
+    line-height: 30px;
+}
+
+.social-band {
+    margin-bottom: 0px;
+    font-size: 50px;
+    margin-top: 280px;
+    height: 10px  
+}
+
+.social-band a {
+    color: white;   
+}
+
+.diego-about {
+    margin: 0;
+    padding-top: 475px;
+    padding-bottom: 450px;
+    height: 100%;
+    background-image: url(../diego_band/Pictures/diego-about2.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: center;
+    scale: 100%;   
+    background-repeat: no-repeat; 
+}
+
+.diego-aboutheadline {
+    margin-top: -130px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.diego-abouttext {
+    width: 500px;
+    text-align: center;
+    margin-left: 31%;
+    margin-top: 20px;
+    line-height: 30px;
+    padding-top: 0px;  
+}
+
+.social-diego {
+    margin-bottom: -320px;
+    font-size: 50px;
+    margin-top: 30px;
+    height: 10px  
+}
+
+.social-diego a {
+    color: white;
+}
+
+.titi-about {
+    margin: 0;
+    padding-top: 475px;
+    padding-bottom: 450px;
+    height: 100%;
+    background-image: url(../diego_band/Pictures/titi-about3.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: center;
+    scale: 100%;   
+    background-repeat: no-repeat; 
+}
+
+.titi-aboutheadline {
+    padding-top: 100px;
+    margin-top: -200px;
+    margin-bottom: 10px;
+}
+
+.titi-abouttext {
+    width: 500px;
+    text-align: center;
+    margin-left: 31%;
+    margin-top: 20px;
+    line-height: 30px;
+    padding-top: 0px;
+}
+
+.social-titi {
+    margin-bottom: -320px;
+    font-size: 50px;
+    margin-top: 25px;
+    height: 10px  
+}
+
+.social-titi a {
+    color: white;
+}
+
+.gonzalo-about {
+    margin: 0;
+    padding-top: 475px;
+    padding-bottom: 450px;
+    height: 100%;
+    background-image: url(../diego_band/Pictures/gonzalo-about1.png);
+    position: relative;
+    float:none;
+    text-align: center;
+    background-position: center;
+    scale: 100%;   
+    background-repeat: no-repeat; 
+}
+
+.gonzalo-aboutheadline {
+    padding-top: 100px;
+    margin-top: -200px;
+    margin-bottom: 10px;
+}
+
+.gonzalo-abouttext {
+    width: 500px;
+    text-align: center;
+    margin-left: 31%;
+    margin-top: 20px;
+    line-height: 30px;
+    padding-top: 0px;
+}
+
+.social-gonzalo {
+    margin-bottom: -320px;
+    font-size: 50px;
+    margin-top: 25px;
+    height: 10px  
+}
+
+.social-gonzalo a {
+    color: white;
+}
+
+.booking-form {
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.contact-headline {
+    margin-top: -108px;
+}
+
+.booking-form label {
+    box-sizing: border-box;
+}
+
+.booking-form input {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.3);
+}
+
+.submit-button {
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color:white;
+    background-color:#55d6aa
+}
+
+
 
 
 
